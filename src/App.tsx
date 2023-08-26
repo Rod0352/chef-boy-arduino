@@ -1,9 +1,7 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { CardContainer } from "./Display/Cards";
-import { SearchBar } from "./Display/Search";
-
+import SearchBar from "./Display/Search";
+const bg = require("./img/main-bg.png");
 function App() {
   return (
     <div
@@ -11,10 +9,14 @@ function App() {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        justifyContent: "center",
+        justifyContent: "space-evenly",
         height: "100vh",
         width: "100vw",
-        backgroundColor: "#282c34",
+        // backgroundColor: "#282c34",
+        backgroundImage: `url(${bg})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
       }}
     >
       <SearchBar />
