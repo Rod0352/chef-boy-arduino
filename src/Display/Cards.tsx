@@ -8,7 +8,6 @@ export function CardContainer() {
     <ImageList
       style={{
         gridTemplateColumns: "repeat(3, 1fr)",
-
         width: "70%",
         height: "100%",
         padding: "15px",
