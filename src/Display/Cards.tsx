@@ -10,7 +10,7 @@ export function CardContainer() {
         gridTemplateColumns: "repeat(3, 1fr)",
 
         width: "70%",
-        height: 450,
+        height: "100%",
         padding: "15px",
         gap: "49px",
         overflowX: "clip",

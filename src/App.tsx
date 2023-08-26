@@ -1,5 +1,6 @@
 import "./App.css";
 import { CardContainer } from "./Display/Cards";
+import Instructional from "./Display/Instructional";
 import SearchBar from "./Display/Search";
 const bg = require("./img/main-bg.png");
 function App() {
@@ -17,9 +18,11 @@ function App() {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
+        overflowY: "scroll",
       }}
     >
       <SearchBar />
+      <Instructional />
       <CardContainer />
     </div>
   );
