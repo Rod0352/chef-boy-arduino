@@ -13,6 +13,7 @@ export default function SearchBar(props: any) {
   return (
     <Box
       sx={{
+        marginTop: "20px",
         display: "flex",
         flexDirection: "column",
         width: "500px",
@@ -98,6 +99,7 @@ export default function SearchBar(props: any) {
           );
         })}
       </Box>
+      {/* instrunctional  text */}
     </Box>
   );
 }
